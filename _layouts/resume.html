@@ -139,7 +139,10 @@
         </header>
         <ul>
         {% for skill in site.data.skills %}
-          <li><strong>{{ skill.skill }}</strong> : {{ skill.description }}</li>
+          <li>
+            <h4>{{ skill.skill }}</h4>
+            <p>{{ skill.description }}</p>
+          </li>
         {% endfor %}
         </ul>
 
