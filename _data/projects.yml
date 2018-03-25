@@ -48,7 +48,7 @@
   subprojects: 
     - name: MusicBrainz Picard Website
       url: https://github.com/metabrainz/picard-website/pulls?q=is%3Apr+author%3ASkullTech
-      description: 
+      description: MusicBrainz Picard is a free and open-source software application for identifying, tagging, and organising digital audio recordings
     - name: Mozilla's Webcompat Issue Parser
       url: https://github.com/webcompat/issue_parser/pulls?&q=is%3Apr+author%3ASkullTech
       description: This is a tool for downloading and parsing Mozilla's webcompat issues.
@@ -119,20 +119,18 @@
       description: Implemented using Union-Find data structure, it simulates percolation behavior of fluids.
 
 # DHD
-- project: Digital System Design in VHDL
-  mentor: Prof. Anshul Kumar
-  duration: August &mdash; November, 2017
-  # url: "#"
-  tags: VHDL, Xilinx Vivado
-  technologies:
-    - VHDL
-    - Xilinx Vivado
-    - Xilinx ISE
-  description: null
-  subprojects: 
-    - name: Implementation of UART
-      description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
-    - name: Elevator System
-      description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
-
-
+# - project: Digital System Design in VHDL
+#   mentor: Prof. Anshul Kumar
+#   duration: August &mdash; November, 2017
+#   # url: "#"
+#   tags: VHDL, Xilinx Vivado
+#   technologies:
+#     - VHDL
+#     - Xilinx Vivado
+#     - Xilinx ISE
+#   description: null
+#   subprojects: 
+#     - name: Implementation of UART
+#       description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
+#     - name: Elevator System
+#       description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
