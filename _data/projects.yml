@@ -44,7 +44,7 @@
   technologies:
     - Open-source
     - Github
-  description: A site for hosting CTF contests. Comes with a complete scoring and leaderboards system.
+  description: My contributions to popular open-source projects.
   subprojects: 
     - name: MusicBrainz Picard Website
       url: https://github.com/metabrainz/picard-website/pulls?q=is%3Apr+author%3ASkullTech
