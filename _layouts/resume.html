@@ -22,7 +22,7 @@
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <!-- <div class="header-contact-info print-only"> -->
         <div class="title-bar print-only">
-          <p>{{ site.resume_header_contact_info }}</p>
+            {{ site.resume_header_contact_info }}
         </div>
 
         <div class="title-bar no-print">
@@ -244,9 +244,11 @@
       <!-- end Print Social Links -->
       {% endif %}
 
+      <div class="no-print">
       <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/SkullTech">@SkullTech</a>. Fork me on <a href="https://github.com/SkullTech">GitHub</a>.</p>
       </footer>
+      </div>
 
     </div>
 
