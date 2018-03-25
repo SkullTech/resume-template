@@ -118,7 +118,7 @@
           {% for sub in project.subprojects %}  
           <li>
             <div>
-              <strong>{{ sub.name }}</strong> &mdash; {{ sub.description }}
+              <strong><a href="{sub.url}">{{ sub.name }}</a></strong> &mdash; {{ sub.description }}
             </div>
           </li>
           {% endfor %}

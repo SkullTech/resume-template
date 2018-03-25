@@ -23,7 +23,43 @@
     - Sockets
   description: A simple CLI client for peer-to-peer file or message sending. It supports protection against transmission error using CRC32 checksum, and comes with CLI (command-line argument) and interactive mode both.
 
-# Journalist
+
+# Goodgives
+- project: Goodgives
+  mentor: null
+  duration: January, 2018
+  url: "https://github.com/SkullTech/goodgives"
+  tags: Python, Scraping
+  technologies:
+    - Python
+    - Requests
+  description: A CLI tool + web-app for auto entering giveaways in Goodreads. I had always been a fan of books, and who wouldn't love some free books!
+
+# Open-source
+- project: Open-source Contributions
+  mentor: null
+  duration: Always
+  url: "https://github.com/super1337/Super1337-CTF"
+  tags: Open-source, Github
+  technologies:
+    - Open-source
+    - Github
+  description: A site for hosting CTF contests. Comes with a complete scoring and leaderboards system.
+  subprojects: 
+    - name: MusicBrainz Picard Website
+      url: https://github.com/metabrainz/picard-website/pulls?q=is%3Apr+author%3ASkullTech
+      description: 
+    - name: Mozilla's Webcompat Issue Parser
+      url: https://github.com/webcompat/issue_parser/pulls?&q=is%3Apr+author%3ASkullTech
+      description: This is a tool for downloading and parsing Mozilla's webcompat issues.
+    - name: Autowebcompat
+      url: https://github.com/marco-c/autowebcompat/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3ASkullTech
+      description: This project aims to automatically detect web compatibility issues using Selenium and Neural Networks. 
+    - name: ProxyMan
+      url: https://github.com/himanshub16/ProxyMan/pulls?q=is%3Apr+author%3ASkullTech
+      description: This is a handy tool to configure proxy setting on Linux easily.
+
+# PL
 - project: Compiler and Programming Language Design
   mentor: Prof. Sanjiva Prasad
   duration: January &mdash; April, 2018
@@ -33,7 +69,7 @@
     - OCaml
   description: Designing a programming language, complete with its compiler (written in OCaml). Various aspects of programming Languages theory were explored through this project.
 
-# Journalist
+# COP
 - project: deCAD
   mentor: Prof. Subhashis Banerjee
   duration: January &mdash; April, 2018
@@ -43,7 +79,7 @@
     - C++
   description: deCAD is a software package for basic computer-aided engineering drawing. Complete with a GUI interface, it provides easy conversion from 2D projections to 3D model and vice-versa.
 
-# Journalist
+# Comp Arch
 - project: Designing an ARM Processor
   mentor: Prof. Anshul Kumar
   duration: January &mdash; April, 2018
@@ -65,18 +101,7 @@
     - Github API
   description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
-# Journalist
-- project: Insightous
-  mentor: null
-  duration: January, 2017
-  url: "https://github.com/SkullTech/Insightous"
-  tags: Machine Learning, Twitter API
-  technologies:
-    - Twitter API
-    - Machine Learning
-  description: Get someone's personality insights from their Twitter timeline! This app uses various machine learning techniques to analyse someone's timeline and their tweets.
-
-
+# DS
 - project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam & Prof. Sedgewick
   duration: July &mdash; November, 2017
@@ -93,6 +118,7 @@
     - name: Percolation Simulator
       description: Implemented using Union-Find data structure, it simulates percolation behavior of fluids.
 
+# DHD
 - project: Digital System Design in VHDL
   mentor: Prof. Anshul Kumar
   duration: August &mdash; November, 2017
@@ -108,3 +134,5 @@
       description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
     - name: Elevator System
       description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
+
+
