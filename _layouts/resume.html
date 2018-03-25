@@ -137,12 +137,11 @@
         <header class="section-header">
           <h2>Skills</h2>
         </header>
+        <ul>
         {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
+          <li><strong>{{ skill.skill }}</strong> : {{ skill.description }}</li>
         {% endfor %}
+        </ul>
 
       </section>
       <!-- end Skills -->

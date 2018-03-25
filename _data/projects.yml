@@ -1,16 +1,110 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+# Super1337-CTF
+- project: Super1337-CTF
+  mentor: null
+  duration: June &mdash; October, 2017
+  url: "https://github.com/super1337/Super1337-CTF"
+  tags: Djnago, Hacking
+  technologies:
+    - Django
+    - Hacking
+  description: A site for hosting CTF contests. Comes with a complete scoring and leaderboards system.
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# PearSend
+- project: PearSend
+  mentor: null
+  duration: December, 2017
+  url: "https://github.com/SkullTech/PearSend"
+  tags: Python, Sockets
+  technologies:
+    - Python
+    - Sockets
+  description: A simple CLI client for peer-to-peer file or message sending. It supports protection against transmission error using CRC32 checksum, and comes with CLI (command-line argument) and interactive mode both.
+
+# Journalist
+- project: Compiler and Programming Language Design
+  mentor: Prof. Sanjiva Prasad
+  duration: January &mdash; April, 2018
+  url: null
+  tags: Compiler, Programming Languages, OCaml
+  technologies:
+    - OCaml
+  description: Designing a programming language, complete with its compiler (written in OCaml). Various aspects of programming Languages theory were explored through this project.
+
+# Journalist
+- project: deCAD
+  mentor: Prof. Subhashis Banerjee
+  duration: January &mdash; April, 2018
+  url: https://github.com/SkullTech/deCAD
+  tags: C++, QT
+  technologies:
+    - C++
+  description: deCAD is a software package for basic computer-aided engineering drawing. Complete with a GUI interface, it provides easy conversion from 2D projections to 3D model and vice-versa.
+
+# Journalist
+- project: Designing an ARM Processor
+  mentor: Prof. Anshul Kumar
+  duration: January &mdash; April, 2018
+  url: null
+  tags: CPU, Processor Design, VHDL
+  technologies:
+    - VHDL
+  description: Designing a complete ARM CPU using VHDL. Best practices of processor design are being implemented in this project, such as dividing the CPU into datapath and controller, pipelining, etc.
+
+
+# Journalist
+- project: Journalist
+  mentor: null
+  duration: January, 2017
+  url: "https://github.com/SkullTech/journalist"
+  tags: Python, Github API
+  technologies:
+    - Python
+    - Github API
+  description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
+
+# Journalist
+- project: Insightous
+  mentor: null
+  duration: January, 2017
+  url: "https://github.com/SkullTech/Insightous"
+  tags: Machine Learning, Twitter API
+  technologies:
+    - Twitter API
+    - Machine Learning
+  description: Get someone's personality insights from their Twitter timeline! This app uses various machine learning techniques to analyse someone's timeline and their tweets.
+
+
+- project: Data Structures and Algorithms Projects
+  mentor: Prof. Mausam & Prof. Sedgewick
+  duration: July &mdash; November, 2017
   # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  tags: Java
+  technologies:
+    - Java
+  description: null
+  subprojects: 
+    - name: 8‑Puzzle Solver
+      description: Finds the most cost-effective way to solve a given 8-puzzle. Implemented using Djikstra's and A-star algorithms.
+    - name: Image Compression System
+      description: Encode a given monochrome image in a compact format and perform operations like Inversion and Morphing on that.
+    - name: Percolation Simulator
+      description: Implemented using Union-Find data structure, it simulates percolation behavior of fluids.
+
+- project: Digital System Design in VHDL
+  mentor: Prof. Anshul Kumar
+  duration: August &mdash; November, 2017
+  # url: "#"
+  tags: VHDL, Xilinx Vivado
+  technologies:
+    - VHDL
+    - Xilinx Vivado
+    - Xilinx ISE
+  description: null
+  subprojects: 
+    - name: Implementation of UART
+      description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
+    - name: Elevator System
+      description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
